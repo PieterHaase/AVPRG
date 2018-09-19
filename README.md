@@ -21,7 +21,7 @@ In diesem Repository findet ihr alle bisherigen Aufgaben, Tipps sowie die Lösun
 3. [Nachschlagewerk für alles rund um HTML, CSS & Javascript (auch mit Codebeispielen)](https://www.w3schools.com/)
 
 
-## Setup Anleitung (Windows / Mac):
+## Tools & Setup Anleitung (Windows / Mac):
 
 1. Installiere Brackets: http://brackets.io/
 2. Installiere die Extension "Brackets Git" (suche im Brackets Extension Manager nach "Integration of Git")
