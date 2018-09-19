@@ -36,8 +36,8 @@ In diesem Repository findet ihr alle bisherigen Aufgaben, Tipps sowie die Lösun
 10. Gebe die repository Adresse aus Schritt 6. ein
 11. Gebe deinen GitHub Username und Passwort ein (und klick auf "Save Credentials")
 12. Klick ok
-13. klicke auf den "master" Branch und erstelle einen neuen Branch namens gh-pages
-14. Erstelle eine neue index.html Datei
+13. Erstelle eine neue index.html Datei
+14. klicke auf den "master" Branch und erstelle einen neuen Branch namens gh-pages
 15. setze die Häkchen bei allen Dateien, die du commiten/hochladen willst
 16. Klick auf commit, schreibe eine commit Nachricht
 17. Klick auf git push
