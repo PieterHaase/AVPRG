@@ -1,8 +1,8 @@
-# AVPRG: Source Code
+# HAW AVPRG Kurs
 
 Hier findet ihr nach und nach allen Source Code für die Beispiele & Aufgaben aus der Vorlesung.
 
-Die Live-Demos der Aufgaben findet ihr auf: https://jakobsudau.github.io/AVPRG/
+Die die Homepage & Live-Demos der Aufgaben findet ihr auf: https://jakobsudau.github.io/AVPRG/
 
 ## Aufgaben
 
@@ -12,14 +12,13 @@ In diesem Repository findet ihr alle bisherigen Aufgaben, Tipps sowie die Lösun
 [Link zur Anleitung](https://github.com/jakobsudau/AVPRG/blob/gh-pages/OpenCV-WebAudio-Connection.md)
 
 ## Quellen
-1. Web Audio API ebook 
-  http://chimera.labs.oreilly.com/books/1234000001552/
+1. [Web Audio API ebook](http://chimera.labs.oreilly.com/books/1234000001552/)
   
-2. MDN Quelle wo man alle Bestandteile der Web Audio API mit Codebeispielen nachgucken kann
-  https://developer.mozilla.org/de/docs/Web/API/Web_Audio_API
+2. [MDN Quelle wo man alle Bestandteile der Web Audio API mit Codebeispielen nachgucken kann](https://developer.mozilla.org/de/docs/Web/API/Web_Audio_API)
   
-3. Nachschlagewerk für alles rund um HTML, CSS & Javascript (auch mit Codebeispielen)
-  https://www.w3schools.com/
+3. [Ofizielle Dokumentation der Web Audio API](https://www.w3.org/TR/webaudio/)
+  
+3. [Nachschlagewerk für alles rund um HTML, CSS & Javascript (auch mit Codebeispielen)](https://www.w3schools.com/)
 
 
 ## Setup Anleitung (Windows / Mac):
