@@ -14,7 +14,7 @@ In diesem Repository findet ihr alle bisherigen Aufgaben, Tipps sowie die Lösun
 ## Quellen
 1. [Web Audio API ebook](http://chimera.labs.oreilly.com/books/1234000001552/)
   
-2. [MDN Quelle wo man alle Bestandteile der Web Audio API mit Codebeispielen nachgucken kann](https://developer.mozilla.org/de/docs/Web/API/Web_Audio_API)
+2. [MDN Quelle, wo man alle Bestandteile der Web Audio API mit Codebeispielen nachgucken kann](https://developer.mozilla.org/de/docs/Web/API/Web_Audio_API)
   
 3. [Ofizielle Dokumentation der Web Audio API](https://www.w3.org/TR/webaudio/)
   
