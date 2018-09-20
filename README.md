@@ -23,13 +23,14 @@ In diesem Repository findet ihr alle bisherigen Aufgaben, Tipps sowie die Lösun
 
 ## Tools & Setup Anleitung (Windows / Mac):
 
-1. Installiere Brackets: http://brackets.io/
-2. Installiere die Extension "Brackets Git" (suche im Brackets Extension Manager nach "Integration of Git")
-3. In den Brackets Einstellungen (brackets.json, Debug -> Einstellungsdatei öffnen), setze Eintrag "brackets-eslint.gutterMarks" auf false
+1. Installiere Brackets: https://code.visualstudio.com/
+2. Installiere die Extension "Live Server" (suche im VS Code Extension Manager nach "Live Server" von Ritwick Dey)
+
+# How to host your Website on the Web via GitHub:
 4. Melde dich bei GitHub an
 5. Erstelle ein neues repository (mit readme)
 6. Kopiere die Adresse von dem repository ("clone with HTTPS")
-7. Öffne einen neuen/leeren Ordner in Brackets mit dem Namen von dem repository
+7. Öffne einen neuen/leeren Ordner in VS Code mit dem Namen von dem repository
 8. In Brackets, öffne die Brackets Git Extension
 9. Klicke auf clone
 10. Gebe die repository Adresse aus Schritt 6. ein
