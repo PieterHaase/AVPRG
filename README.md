@@ -8,9 +8,6 @@ Die die Homepage & Live-Demos der Aufgaben findet ihr auf: https://jakobsudau.gi
 
 In diesem Repository findet ihr alle bisherigen Aufgaben, Tipps sowie die Lösungen.
 
-## Anleitung zur Qt-OpenCV und Web Audio Verknüpfung über MIDI
-[Link zur Anleitung](https://github.com/jakobsudau/AVPRG/blob/gh-pages/OpenCV-WebAudio-Connection.md)
-
 ## Quellen
 1. [Web Audio API ebook](http://chimera.labs.oreilly.com/books/1234000001552/)
   
@@ -21,7 +18,7 @@ In diesem Repository findet ihr alle bisherigen Aufgaben, Tipps sowie die Lösun
 3. [Nachschlagewerk für alles rund um HTML, CSS & Javascript (auch mit Codebeispielen)](https://www.w3schools.com/)
 
 
-## Tools & Setup Anleitung (Windows / Mac):
+## Tools, Setup & Anleitungen (Windows / Mac):
 
 1. Installiere Brackets: https://code.visualstudio.com/
 2. Installiere die Extension "Live Server" (suche im VS Code Extension Manager nach "Live Server" von Ritwick Dey)
@@ -41,3 +38,6 @@ In diesem Repository findet ihr alle bisherigen Aufgaben, Tipps sowie die Lösun
 15. Im Message Textfeld, gebe eine commit Nachricht/Titel ein
 16. In der Source Control Zeile (oben), klicke auf den Haken um die Änderungen zu commiten
 17. In der Statusleiste (ganz unten), klicke auf das Symbol neben dem Branch um die Änderungen hochzuladen
+
+# Anleitung zur Qt-OpenCV und Web Audio Verknüpfung über MIDI
+[Link zur Anleitung](https://github.com/jakobsudau/AVPRG/blob/gh-pages/OpenCV-WebAudio-Connection.md)
