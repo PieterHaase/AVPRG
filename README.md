@@ -26,7 +26,7 @@ In diesem Repository findet ihr alle bisherigen Aufgaben, Tipps sowie die Lösun
 1. Installiere Brackets: https://code.visualstudio.com/
 2. Installiere die Extension "Live Server" (suche im VS Code Extension Manager nach "Live Server" von Ritwick Dey)
 
-# How to host your Website on the Web via GitHub:
+### How to host your Website on the Web via GitHub:
 4. Melde dich bei GitHub an
 5. Erstelle ein neues repository (mit readme)
 6. Kopiere die Adresse von dem repository ("clone with HTTPS")
