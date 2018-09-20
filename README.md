@@ -22,7 +22,7 @@ In diesem Repository findet ihr alle bisherigen Aufgaben, Tipps sowie die Lösun
 
 
 ## Tools & Setup Anleitung (Windows / Mac):
-
+0. test
 1. Installiere Brackets: http://brackets.io/
 2. Installiere die Extension "Brackets Git" (suche im Brackets Extension Manager nach "Integration of Git")
 3. In den Brackets Einstellungen (brackets.json, Debug -> Einstellungsdatei öffnen), setze Eintrag "brackets-eslint.gutterMarks" auf false
