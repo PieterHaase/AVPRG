@@ -39,5 +39,5 @@ In diesem Repository findet ihr alle bisherigen Aufgaben, Tipps sowie die Lösun
 16. In der Source Control Zeile (oben), klicke auf den Haken um die Änderungen zu commiten
 17. In der Statusleiste (ganz unten), klicke auf das Symbol neben dem Branch um die Änderungen hochzuladen
 
-# Anleitung zur Qt-OpenCV und Web Audio Verknüpfung über MIDI
+### Anleitung zur Qt-OpenCV und Web Audio Verknüpfung über MIDI
 [Link zur Anleitung](https://github.com/jakobsudau/AVPRG/blob/gh-pages/OpenCV-WebAudio-Connection.md)
