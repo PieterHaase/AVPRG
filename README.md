@@ -28,16 +28,16 @@ In diesem Repository findet ihr alle bisherigen Aufgaben, Tipps sowie die Lösun
 
 ### How to host your Website on the Web via GitHub:
 4. Melde dich bei GitHub an
-5. Erstelle ein neues repository (mit readme)
+5. Erstelle ein neues repository (setze das Häkchen bei "initialisieren mit README")
 6. Kopiere die Adresse von dem repository ("clone with HTTPS")
-7. Öffne einen neuen/leeren Ordner in VS Code mit dem Namen von dem repository
-8. In Brackets, öffne die Brackets Git Extension
-9. Klicke auf clone
-10. Gebe die repository Adresse aus Schritt 6. ein
-11. Gebe deinen GitHub Username und Passwort ein (und klick auf "Save Credentials")
-12. Klick ok
-13. Erstelle eine neue index.html Datei
-14. klicke auf den "master" Branch und erstelle einen neuen Branch namens gh-pages
-15. setze die Häkchen bei allen Dateien, die du commiten/hochladen willst
-16. Klick auf commit, schreibe eine commit Nachricht
-17. Klick auf git push
+7. In VS Code, öffne die Command Palette (cmd shift p / ctrl shift p) und fürde den Befehl "Git: Clone" aus
+8. Gebe die Adresse des repository ein und bestätige mit Enter
+9. Im nächsten Dialog, wähle einen lokalen Speicherort für das repository
+10. Erstelle deine Website Dateien (index.html, etc.)
+11. Öffne die Command Palette (siehe Schritt 7) und führe den Befehl "Git: Create Branch" aus
+12. Im nächsten Dialog, gebe den branch namen "gh-pages" ein und bestätige mit Enter
+13. In der Aktivitätsleiste (links), klicke auf das Source Control Symbol (Node-Tree Grafik)
+14. In der Changes Zeile, klicke auf das + um die Änderungen zu stagen
+15. Im Message Textfeld, gebe eine commit Nachricht/Titel ein
+16. In der Source Control Zeile (oben), klicke auf den Haken um die Änderungen zu commiten
+17. In der Statusleiste (ganz unten), klicke auf das Symbol neben dem Branch um die Änderungen hochzuladen
