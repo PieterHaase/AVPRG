@@ -24,20 +24,24 @@ In diesem Repository findet ihr alle bisherigen Aufgaben, Tipps sowie die Lösun
 2. Installiere die Extension "Live Server" (suche im VS Code Extension Manager nach "Live Server" von Ritwick Dey)
 
 ### How to host your Website on the Web via GitHub:
-4. Melde dich bei GitHub an
-5. Erstelle ein neues repository (setze das Häkchen bei "initialisieren mit README")
-6. Kopiere die Adresse von dem repository ("clone with HTTPS")
-7. In VS Code, öffne die Command Palette (cmd shift p / ctrl shift p) und fürde den Befehl "Git: Clone" aus
-8. Gebe die Adresse des repository ein und bestätige mit Enter
-9. Im nächsten Dialog, wähle einen lokalen Speicherort für das repository
-10. Erstelle deine Website Dateien (index.html, etc.)
-11. Öffne die Command Palette (siehe Schritt 7) und führe den Befehl "Git: Create Branch" aus
-12. Im nächsten Dialog, gebe den branch namen "gh-pages" ein und bestätige mit Enter
-13. In der Aktivitätsleiste (links), klicke auf das Source Control Symbol (Node-Tree Grafik)
-14. In der Changes Zeile, klicke auf das + um die Änderungen zu stagen
-15. Im Message Textfeld, gebe eine commit Nachricht/Titel ein
-16. In der Source Control Zeile (oben), klicke auf den Haken um die Änderungen zu commiten
-17. In der Statusleiste (ganz unten), klicke auf das Symbol neben dem Branch um die Änderungen hochzuladen
+1. Meldet euch bei GitHub an
+2. Erstellt ein neues repository (Häkchen setzen bei initialisieren mit einer README)
+3. Im repository, klickt auf den "Branch:master" und erstellt einen neuen branch mit dem Namen: gh-pages
+4. geht auf die Seite http://username.github.io/repositoryname/
+5. freut euch über eure erste gehostete Website im Internet!
+
+### How to work with VS Code and GitHub:
+1. Kopiere die Adresse von der Startseite eures repositorys auf GitHub ("clone with HTTPS")
+2. In VS Code, öffne die Command Palette (cmd shift p / ctrl shift p) und fürde den Befehl "Git: Clone" aus
+3. Gebe die Adresse des repository ein und bestätige mit Enter
+4. Im nächsten Dialog, wähle einen lokalen Speicherort für das repository
+5. Erstelle deine Website Dateien (index.html, etc.)
+6. In der Statusleiste (ganz unten), wählt ganz link den branch gh-pages aus
+7. In der Aktivitätsleiste (links), klicke auf das Source Control Symbol (Node-Tree Grafik)
+8. In der Changes Zeile, klicke auf das + um die Änderungen zu stagen
+9. Im Message Textfeld, gebe eine commit Nachricht/Titel ein
+10. In der Source Control Zeile (oben), klicke auf den Haken um die Änderungen zu commiten
+11. In der Statusleiste (ganz unten), klicke auf das Symbol neben dem Branch um die Änderungen hochzuladen
 
 ### Anleitung zur Qt-OpenCV und Web Audio Verknüpfung über MIDI
 [Link zur Anleitung](https://github.com/jakobsudau/AVPRG/blob/gh-pages/OpenCV-WebAudio-Connection.md)
