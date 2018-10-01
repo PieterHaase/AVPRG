@@ -1,6 +1,6 @@
 # Erstellt eine Website, die eine kurze Audiodatei abspielt. Über drei Slider kann man einstellen: GAIN (bis 10 dB), PANNING (stereo), DELAY (bis 4 sek.)
 
-Eine Live-Demo der Aufgabe findet ihr hier: https://jakobsudau.github.io/AVPRG/Aufgabe6/index.html
+Eine Live-Demo der Aufgabe werdet ihr hier finden: https://jakobsudau.github.io/AVPRG/Aufgabe6/index.html
 
 Tipp: Nutzt das HTML Input Element von type=range, nutzt eine GainNode, StereoPannerNode und DelayNode. Ladet einen Sound wie in Aufgabe 5, den man über einen HTML Button Element abspielen kann.
 

@@ -1,6 +1,6 @@
 # Erstellt eine Website, die eine Audio Datei abspielt. Implementiert einen Compressor, bei dem man Threshold, Ratio, Knee, Attack und Release über Slider (siehe Aufgabe 6) einstellen kann.
 
-Eine Live-Demo der Aufgabe findet ihr hier: https://jakobsudau.github.io/AVPRG/Aufgabe8/index.html
+Eine Live-Demo der Aufgabe werdet ihr hier finden: https://jakobsudau.github.io/AVPRG/Aufgabe8/index.html
 
 Tipp: Nutzt die DynamicsCompressorNode, das HTML Input Element von type=range für die Slider (siehe Aufgabe 6) und erstellt den Sound wie in Aufgabe 6.
 

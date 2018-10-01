@@ -1,6 +1,6 @@
 # Erstellt eine Website, die die Lautstärke des Mikrofon-Inputs live anzeigt. Nutzt hierfür die AnalyserNode sowie die MediaStreamAudioSourceNode.
 
-Eine Live-Demo der Aufgabe findet ihr hier: https://jakobsudau.github.io/AVPRG/Aufgabe11/index.html
+Eine Live-Demo der Aufgabe werdet ihr hier finden: https://jakobsudau.github.io/AVPRG/Aufgabe11/index.html
 
 Tipp: Nutzt die MediaStreamAudioSourceNode, die AnalyserNode und die JavaScript Funktion window.setInterval(function, timeInterval)
 Die Funktion zur Berechnung des Mittelwerts eines Arrays findet ihr in dem Beispielcode in dieser README.

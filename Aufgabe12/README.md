@@ -1,6 +1,6 @@
 # Erstellt eine Website, bei der man über einen Slider zwischen der Lautstärke des rechten und linken Stereo-Signals einer Audio Datei variieren kann. Über einen Button kann man die Stereokanäle vertauschen. 
 
-Eine Live-Demo der Aufgabe findet ihr hier: https://jakobsudau.github.io/AVPRG/Aufgabe12/index.html
+Eine Live-Demo der Aufgabe werdet ihr hier findenr: https://jakobsudau.github.io/AVPRG/Aufgabe12/index.html
 
 Tipp: Nutzt die ChannelSplitterNode, die ChannelMergerNode, die GainNode und das HTML Input Element von type=range für die Slider (siehe Aufgabe 6). Guckt euch dafür die AudioNode.connect Funktion genauer an: https://developer.mozilla.org/en-US/docs/Web/API/AudioNode/connect
 

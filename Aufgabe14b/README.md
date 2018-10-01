@@ -1,6 +1,6 @@
 # Implementiert die Web MIDI API in eurem Synthesizer. Fügt die Frequenz der Noten/Oszillatoren entsprechend der gespielten Midi Note hinzu. Nutzt die AudioParam Funktionen, um das “Klicken” der Oszillatoren zu beseitigen.
 
-Eine Live-Demo der Aufgabe findet ihr hier: https://jakobsudau.github.io/AVPRG/Aufgabe14b/index.html
+Eine Live-Demo der Aufgabe werdet ihr hier finden: https://jakobsudau.github.io/AVPRG/Aufgabe14b/index.html
 
 Tipp: Nutzt die Web MIDI API (siehe Besipsielcode), das Frequency Array aus Aufgabe 2/3. Fügt GainNodes für jeden Oszillator hinzu und nutzt so die Funktion exponentialRampToValueAtTime/linearRampToValueAtTime, um das "Klicken" zu beseitigen. Bearbeitet die Funktionen startNote() und stopNote() aus Aufgabe 14a so, dass diese die zwei Parameter note und velocity annehmen und weiterverarbeiten: startNote(note, velocity), stopNote(note, velocity).
 

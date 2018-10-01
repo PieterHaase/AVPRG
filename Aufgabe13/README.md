@@ -1,6 +1,6 @@
 # Erstellt euch euren eigenen Beat (z.B. “We Will Rock you”), der für zwei Takte spielt.
 
-Eine Live-Demo der Aufgabe findet ihr hier: https://jakobsudau.github.io/AVPRG/Aufgabe13/index.html
+Eine Live-Demo der Aufgabe werdet ihr hier finden: https://jakobsudau.github.io/AVPRG/Aufgabe13/index.html
 
 Nutzt dafür AudioSourceBufferNodes und Context.currenttime
 

@@ -1,6 +1,6 @@
 # Setzt einen Distortion Effekt mit Hilfe eines Waveshapers um. Erstellt dafür eine Website, die eine Audio Datei abspielt. Über einen Slider kann man die Intensität der Distortion einstellen.
 
-Eine Live-Demo der Aufgabe findet ihr hier: https://jakobsudau.github.io/AVPRG/Aufgabe10/index.html
+Eine Live-Demo der Aufgabe werdet ihr hier finden: https://jakobsudau.github.io/AVPRG/Aufgabe10/index.html
 
 Tipp: Nutzt die WaveShaperNode, das HTML Input Element von type=range für die Slider (siehe Aufgabe 6) und erstellt den Sound wie in Aufgabe 6. Die Funktion zur Berechnung einer Sigmoid Kurve findet ihr in dem Beispielcode in dieser README.
 

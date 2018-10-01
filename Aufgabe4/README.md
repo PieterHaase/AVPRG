@@ -1,6 +1,6 @@
 # Erstellt eine Drum Machine mit 4 Feldern, durch einen Mausklick auf das jeweilige Feld wird ein Sound abgespielt.
 
-Eine Live-Demo der Aufgabe findet ihr hier: https://jakobsudau.github.io/AVPRG/Aufgabe5/index.html
+Eine Live-Demo der Aufgabe werdet ihr hier finden: https://jakobsudau.github.io/AVPRG/Aufgabe4/index.html
 
 Tipp: Nutzt das HTML Div Element für die Felder, nutzt AudioBufferSourceNodes für die verschiedenen Sounds (Achtung: eine AudioBufferSourceNode kann nur einmal abgespielt werden!), sowie addEventListener()
 

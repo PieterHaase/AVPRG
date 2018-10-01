@@ -1,6 +1,6 @@
 # Erstellt eine Website, die einen Text Input Field besitzt, über welches man eine MIDI Note (0 bis 127) eingeben kann und einen Button, über den man die dazugehörige Frequenz erfahren kann. Baut einen Schutz vor falschen Eingaben ein.
 
-Eine Live-Demo der Aufgabe findet ihr hier: https://jakobsudau.github.io/AVPRG/Aufgabe2/index.html
+Eine Live-Demo der Aufgabe werdet ihr hier finden: https://jakobsudau.github.io/AVPRG/Aufgabe2/index.html
 
 Tipp: Nutzt Variablen, if-else Statements, eine Funktion, document.getElementById & .addEventListener, hier ein Link mit JavaScript Tutorials: https://www.w3schools.com/js/
 

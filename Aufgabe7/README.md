@@ -1,6 +1,6 @@
 # Erstellt eine Website, die eine kurze Audiodatei mit Reverb abspielt. Über ein Dropdown-Menü kann man zwischen 4 verschiedenen Reverb Einstellungen auswählen.
 
-Eine Live-Demo der Aufgabe findet ihr hier: https://jakobsudau.github.io/AVPRG/Aufgabe7/index.html
+Eine Live-Demo der Aufgabe werdet ihr hier finden: https://jakobsudau.github.io/AVPRG/Aufgabe7/index.html
 
 Tipp: Nutzt die ConvolverNode, das HTML select Element für das DropDown-Menü und erstellt den Sound wie in Aufgabe 6. die Impuse Response File muss über einen XMLHttpRequest in einen Buffer geladen werden.
 
