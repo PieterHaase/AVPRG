@@ -2,28 +2,19 @@
 
 Eine Live-Demo der Aufgabe werdet ihr hier finden: https://jakobsudau.github.io/AVPRG/Aufgabe4/index.html
 
-Tipp: Nutzt das HTML Div Element für die Felder, nutzt AudioBufferSourceNodes für die verschiedenen Sounds (Achtung: eine AudioBufferSourceNode kann nur einmal abgespielt werden!), sowie addEventListener()
+Tipp: Nutzt das HTML Div Element (oder Buttons) für die Felder, addEventListener() und nutzt das HTML5 Audio Element für die verschiedenen Sounds
 
-Beispielcode: erstellt eine AudioBufferSourceNode
-Achtung: XMLHttpRequest funktionieren nicht lokal, ihr müsst also entweder die Live-Preview Funktion in Brackets nutzen oder das Projekt bei GitHub Pages hochladen
+Beispielcode: erstellt ein Audio Element, GainNode, verbindet diese und spielt den Sound ab
+
 ```
-var context = new AudioContext();
+var context = new AudioContext(),
+    sound = new Audio(“sounds/sound1.wav”),
+    gainNode = context.createGain();
 
-var request = new XMLHttpRequest();
-request.open('GET',  "path/to/your/sound.wav", true);
-request.responseType = 'arraybuffer';
+gainNode.gain.value = 0.8;
 
-request.onload = function () {
-    var undecodedAudio = request.response;
-    context.decodeAudioData(undecodedAudio, function (buffer) {
-        
-        var sourceBuffer = context.createBufferSource();
-        sourceBuffer.buffer = buffer;
-        sourceBuffer.connect(context.destination);
-        
-        sourceBuffer.start(context.currentTime);
-    });
-};
+sound.connect(gainNode);
+gainNode.connect(context.destination);
 
-request.send();
+sound.play();
 ```

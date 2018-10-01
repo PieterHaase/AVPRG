@@ -2,7 +2,8 @@
 
 Eine Live-Demo der Aufgabe werdet ihr hier finden: https://jakobsudau.github.io/AVPRG/Aufgabe2/index.html
 
-Tipp: Nutzt Variablen, if-else Statements, eine Funktion, document.getElementById & .addEventListener, hier ein Link mit JavaScript Tutorials: https://www.w3schools.com/js/
+Tipp: Nutzt Variablen, if-else Statements, eine Funktion, document.getElementById("name") & .addEventListener("mouseup", function (e) {...});
+hier ein Link mit JavaScript Tutorials: https://www.w3schools.com/js/
 
 Beispielcode: ein Array zur Umrechnung von MIDI Noten in Frequenzen (der Index des Arrays entspricht der MIDI Note)
 
