@@ -9,11 +9,12 @@ Beispielcode: erstellt ein Audio Element, GainNode, verbindet diese und spielt d
 ```
 var context = new AudioContext(),
     sound = new Audio(“sounds/sound1.wav”),
+    soundNode = context.createMediaElementSource(source);
     gainNode = context.createGain();
 
 gainNode.gain.value = 0.8;
 
-sound.connect(gainNode);
+soundNode.connect(gainNode);
 gainNode.connect(context.destination);
 
 sound.play();
