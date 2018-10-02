@@ -2,7 +2,10 @@
 
 Eine Live-Demo der Aufgabe werdet ihr hier finden: https://jakobsudau.github.io/AVPRG/Aufgabe2/index.html
 
-Tipp: Nutzt Variablen, if-else Statements, eine Funktion, document.getElementById("name") & .addEventListener("mouseup", function (e) {...});
+Tipp: erstellt eine index.html Datei, nutzt das < script > Tag um Javascript in den Body eures HTML Dokuments einzufügen, nutzt die HTML Elemente button, input (mit type="field"), h1 und/oder div, nutzt Variablen, if-else Statements, eine Funktion und folgenden Code um einen EventListener auf den Button zu legen:
+```
+document.getElementById("buttonId").addEventListener("click", function() {...});
+```
 
 Hier ein Link mit JavaScript Tutorials: https://www.w3schools.com/js/
 
