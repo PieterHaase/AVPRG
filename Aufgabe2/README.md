@@ -2,7 +2,7 @@
 
 Eine Live-Demo der Aufgabe werdet ihr hier finden: https://jakobsudau.github.io/AVPRG/Aufgabe2/index.html
 
-Tipp: erstellt eine index.html Datei, nutzt das < script > Tag um Javascript in den Body eures HTML Dokuments einzufügen, nutzt die HTML Elemente button, input (mit type="field"), h1 und/oder div, nutzt Variablen, if-else Statements, eine Funktion und folgenden Code um einen EventListener auf den Button zu legen:
+Tipp: erstellt eine index.html Datei (siehe https://www.w3schools.com/html/), nutzt das < script > Tag um Javascript in den Body eures HTML Dokuments einzufügen, nutzt die HTML Elemente button, input (mit type="field"), h1 und/oder div, nutzt Variablen, if-else Statements, eine Funktion und folgenden Code um einen EventListener auf den Button zu legen:
 ```
 document.getElementById("buttonId").addEventListener("click", function() {...});
 ```
