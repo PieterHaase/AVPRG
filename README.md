@@ -20,15 +20,15 @@ In diesem Repository findet ihr alle bisherigen Aufgaben, Tipps sowie die Lösun
 
 ## Tools, Setup & Anleitungen (Windows / Mac):
 
-1. Installiere Brackets: https://code.visualstudio.com/
+1. Installiere Visual Studio Code: https://code.visualstudio.com/
 2. Installiere die Extension "Live Server" (suche im VS Code Extension Manager nach "Live Server" von Ritwick Dey)
 
 ### How to host your Website on the Web via GitHub:
 1. Meldet euch bei GitHub an
 2. Erstellt ein neues repository (Häkchen setzen bei initialisieren mit einer README)
 3. Im repository, klickt auf den "Branch:master" und erstellt einen neuen branch mit dem Namen: gh-pages
-4. geht auf die Seite http://username.github.io/repositoryname/
-5. freut euch über eure erste gehostete Website im Internet!
+4. Geht auf die Seite http://username.github.io/repositoryname/
+5. Freut euch über eure erste gehostete Website im Internet! Die README.md Datei könnt ihr auf der Startseite eures repositorys anpassen
 
 ### How to work with VS Code and GitHub:
 1. Kopiere die Adresse von der Startseite eures repositorys auf GitHub ("clone with HTTPS")
@@ -36,7 +36,7 @@ In diesem Repository findet ihr alle bisherigen Aufgaben, Tipps sowie die Lösun
 3. Gebe die Adresse des repository ein und bestätige mit Enter
 4. Im nächsten Dialog, wähle einen lokalen Speicherort für das repository
 5. Erstelle deine Website Dateien (index.html, etc.)
-6. In der Statusleiste (ganz unten), wählt ganz link den branch gh-pages aus
+6. In der Statusleiste (ganz unten), wählt ganz links den branch gh-pages aus
 7. In der Aktivitätsleiste (links), klicke auf das Source Control Symbol (Node-Tree Grafik)
 8. In der Changes Zeile, klicke auf das + um die Änderungen zu stagen
 9. Im Message Textfeld, gebe eine commit Nachricht/Titel ein

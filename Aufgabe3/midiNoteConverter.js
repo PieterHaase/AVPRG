@@ -1,17 +1,3 @@
-# Erstellt eine Website, die einen Text Input Field besitzt, über welches man eine MIDI Note (0 bis 127) eingeben kann und einen Button, über den man die dazugehörige Frequenz erfahren kann. Baut einen Schutz vor falschen Eingaben ein.
-
-Eine Live-Demo der Aufgabe werdet ihr hier finden: https://jakobsudau.github.io/AVPRG/Aufgabe2/index.html
-
-Tipp: erstellt eine index.html Datei (siehe https://www.w3schools.com/html/), nutzt das < script > Tag um Javascript in den Body eures HTML Dokuments einzufügen, nutzt die HTML Elemente button, input (mit type="field"), h1 und/oder div, nutzt Variablen, if-else Statements, eine Funktion und folgenden Code um einen EventListener auf den Button zu legen:
-```
-document.getElementById("buttonId").addEventListener("click", function() {...});
-```
-
-Hier ein Link mit JavaScript Tutorials: https://www.w3schools.com/js/
-
-Beispielcode: ein Array zur Umrechnung von MIDI Noten in Frequenzen (der Index des Arrays entspricht der MIDI Note)
-
-```
 var allFrequencies = [
     8.1757989156,       8.6619572180,       9.1770239974,
     9.7227182413,       10.3008611535,      10.9133822323,
@@ -56,4 +42,17 @@ var allFrequencies = [
     8372.018089619156,  8869.844191259906,  9397.272573357044,
     9956.06347910659,   10548.081821211836, 11175.303405856126,
     11839.8215267723,   12543.853951415975];
-```
+
+function calculateAndOutputMidiNote(value) {
+    var outputTextField = document.getElementById("outputText");
+
+    if (value <= 127 && value >= 0 && value !== "") {
+        outputTextField.innerHTML = allFrequencies[value] + " Hz";
+    } else {
+        outputTextField.innerHTML = "Please enter a number between 0 and 127";
+    }
+}
+
+document.getElementById("myButton").addEventListener("mouseup", function (e) {
+    calculateAndOutputMidiNote(document.getElementById("myMidiInput").value);
+});
